@@ -1,6 +1,6 @@
 body {
-	background: #5d742efa; 
-    /* url('/images/bodyBg.png') repeat-x */
+	background: rgb(96, 118, 0);
+	background: url('/images/2151038.jpg') repeat;
 	color: #f8f8f8;
 	padding-top: 15px;
 	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
@@ -29,7 +29,7 @@ a:focus {
 
 header div#logo {
 	float: left;
-	color: rgb(66, 128, 0);
+	color: rgb(96, 118, 0);
 	padding-top: 0.9em;
 	font-size: 2em;
 	font-style: italic;
@@ -73,9 +73,9 @@ section#feature {
 	margin-bottom: 1em;
 	color: white;
 	text-align: center;
-	-moz-text-shadow: 0 1px 3px rgba(0,0,0,0.8);
+	/* -moz-text-shadow: 0 1px 3px rgba(0,0,0,0.8);
 	-webkit-text-shadow: 0 1px 3px rgba(0,0,0,0.8);
-	-o-text-shadow: 0 1px 3px rgba(0,0,0,0.8);
+	-o-text-shadow: 0 1px 3px rgba(0,0,0,0.8); */
 }
 
 
@@ -131,18 +131,25 @@ body {
   }
   
   /* Style the search box */
-  #mySearch {
+  /* #mySearch {
 	width: 100%;
 	font-size: 18px;
 	padding: 11px;
-	border: 1px solid #ddd;
+	border: 1px solid #ddd; 
+  }*/
+  #mySearch{
+	border-radius: 25px;
+	border: 2px solid #73AD21;
+	padding: 20px; 
+	width: 200px;
+	height: 15px;  
   }
-  
   /* Style the navigation menu inside the left column */
   #myMenu {
 	list-style-type: none;
 	padding: 0;
 	margin: 0;
+	border-radius: 25px;
   }
   
   #myMenu li a {
@@ -152,6 +159,7 @@ body {
 	display: block
   }
   
+
   #myMenu li a:hover {
 	background-color: #eee;
   }
@@ -166,16 +174,13 @@ body {
 section#com-text {
 	width: 100%;
 	height: 500px;
-	/* background: url('/images/finalimage.png') no-repeat; */ */
+	background: url('images/finalimage.png') no-repeat; 
 	margin-bottom: 1em;
 	padding: 30px;
 	font-size: 0.9em;
 	background: white;
 	color: rgb(23, 22, 22);
 	text-align: center;
-	/* -moz-text-shadow: 0 1px 3px rgba(0,0,0,0.8);
-	-webkit-text-shadow: 0 1px 3px rgba(0,0,0,0.8);
-	-o-text-shadow: 0 1px 3px rgba(0,0,0,0.8); */
 	border-bottom: 1px solid white;
 	text-align: center;
 }
@@ -224,23 +229,23 @@ section#com-text > h1:after {
 
 
 
-
-section#page-text {
+/* 
+div#wallpaper {
 	width: 100%;
 	height: 200px;
-	background: url('/images/finalimage.png') no-repeat;
+	background:
 	margin-bottom: 1em;
 	padding: 30px;
 	font-size: 0.9em;
 	/* background: white; */
 	/* color: white; */
 	text-align: center;
-	-moz-text-shadow: 0 1px 3px rgba(0,0,0,0.8);
+	/* -moz-text-shadow: 0 1px 3px rgba(0,0,0,0.8);
 	-webkit-text-shadow: 0 1px 3px rgba(0,0,0,0.8);
-	-o-text-shadow: 0 1px 3px rgba(0,0,0,0.8);
+	-o-text-shadow: 0 1px 3px rgba(0,0,0,0.8); */
 	/* border-bottom: 1px solid white; */
 	text-align: center;
-}
+} */
 
 section#page-text > h1 {
 	text-align: center;
